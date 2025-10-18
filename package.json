@@ -2,13 +2,18 @@
   "name": "async",
   "version": "1.0.0",
   "description": "project to test async lib",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
+    "start": "node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/async": "^3.2.25",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "async": "^3.2.6"
   }
 }
